@@ -9,7 +9,6 @@ embed.set_timestamp()
 webhook.add_embed(embed)
 
 r = requests.get('https://trospysmp.wtf/')
-print("r.status_code")
 
 if r.status_code == 404 :
     print("Code 404")
